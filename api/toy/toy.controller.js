@@ -36,7 +36,6 @@ async function deleteToy(req, res) {
 //UPDATE
 
 async function updateToy(req, res) {
-    console.log('inside');
     const toy = req.body;
     await toyService.update(toy)
     res.send(toy)
@@ -45,7 +44,6 @@ async function updateToy(req, res) {
 // ADD
 async function addToy(req, res) {
     const toy = req.body;
-    console.log('toy-',toy);
     await toyService.add(toy)
     res.send(toy);
 }

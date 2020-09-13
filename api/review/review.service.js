@@ -2,7 +2,6 @@
 const dbService = require('../../services/db.service')
 const ObjectId = require('mongodb').ObjectId
 
-
     // this is how the filter lookslike: {byUserId: 1ksdlfkjsd} {aboutToyId: sdmkfsdmfk}
 
 
@@ -43,14 +42,13 @@ const ObjectId = require('mongodb').ObjectId
         ]).toArray()
 
         reviews = reviews.map(review => {
-            review.byUser = { _id: review.byUserId._id, username: review.byUserId.username }
+            review.byUser = { _id: review.byUser._id, username: review.byUser.username }
             // review.aboutUser = { _id: review.aboutUser._id, username: review.aboutUser.username }
             delete review.byUserId;
             // delete review.aboutUserId;
             return review;
         })
-        console.log('review', reviews);
-        // return reviewAfterSort
+        console.log('reviews for hila-', reviews);
         return reviews
     } catch (err) {
         console.log('ERROR: cannot find reviews')

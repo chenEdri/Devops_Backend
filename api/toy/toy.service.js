@@ -11,9 +11,6 @@ module.exports = {
     add
 }
 
-
-
-
 async function query(filterBy = {}) {
     const criteria = _buildCriteria(filterBy)
     const collection = await dbService.getCollection('toy')
@@ -94,8 +91,8 @@ function _buildCriteria(filterBy) {
     if (filterBy.name) criteria.name = {$regex:new RegExp(filterBy.name,'i')}
     if (filterBy.minPrice) criteria.price = { $gte: +filterBy.minPrice }
     if (filterBy.maxPrice)  criteria.price = { $lt: +filterBy.maxPrice }
-    if (filterBy.category !== undefined && filterBy.category!=='' && filterBy.category !== 'all') criteria.category = filterBy.category
-    if (filterBy.inStock !== undefined && filterBy.inStock !== 'all') {
+    if (filterBy.category !== undefined && filterBy.category !=='' && filterBy.category !== 'all') criteria.category = filterBy.category
+    if (filterBy.inStock !== undefined && filterBy.inStock!=='' && filterBy.inStock !== 'all') {
         (filterBy.inStock === 'yes') ? filterBy.inStock = true : filterBy.inStock = false;
         criteria.inStock = filterBy.inStock;
     }
