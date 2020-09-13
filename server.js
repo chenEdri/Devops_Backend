@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const cookieParser = require('cookie-parser')
 const session = require('express-session')
-
+const path = require ('path')
 
 const app = express()
 const http = require('http').createServer(app);
