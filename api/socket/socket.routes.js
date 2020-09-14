@@ -12,9 +12,10 @@ function connectSockets(io) {
             // io.emit('chat addMsg', msg)
             // emits only to sockets in the same room
             io.to(socket.myTopic).emit('chat addMsg', msg)
-            io.to(socket.myTopic).emit('typing', '')
+            // io.to(socket.myTopic).emit('typing', '')
         })
         socket.on('chat topic', topic=>{
+            console.log('topic-', topic);
             if (socket.myTopic) {
                 socket.leave(socket.myTopic)
             }

@@ -2023,3 +2023,11 @@ Mon, 14 Sep 2020 18:08:09 GMT - Info - Server is running on port: 3030
 Mon, 14 Sep 2020 18:08:53 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
 Mon, 14 Sep 2020 18:09:03 GMT - Debug - auth.service - login with email: maya@gmail.com
 Mon, 14 Sep 2020 18:23:50 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 19:23:01 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 19:25:29 GMT - Debug - auth.service - login with email: maya@gmail.com
+Mon, 14 Sep 2020 19:25:34 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 19:27:15 GMT - Debug - auth.service - login with email: maya@gmail.com
+Mon, 14 Sep 2020 19:28:56 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 19:29:21 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 19:36:12 GMT - Debug - auth.service - login with email: maya@gmail.com
+Mon, 14 Sep 2020 19:38:25 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
