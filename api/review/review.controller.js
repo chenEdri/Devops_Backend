@@ -1,6 +1,7 @@
 const logger = require('../../services/logger.service')
 const reviewService = require('./review.service')
 const toyService = require ('../toy/toy.service')
+const userService = require('../user/user.service')
 
 // TODO: needs error handling! try, catch
 
@@ -28,12 +29,12 @@ async function deleteReview(req, res) {
 async function addReview(req, res) {
     var review = req.body;
     review.byUserId = req.session.user._id;
+    var user = await userService.getById(review.byUserId)
     toy = await toyService.getById(review.aboutToyId)
     review.aboutToy = toy
-    review = await reviewService.add(review)
-    console.log('review-',review);
-    // review.byUser = req.session.user;
-    review.aboutToy = {}
+    await reviewService.add(review)
+    review.byUser = user;
+    // review.aboutToy = {}
     res.send(review)
 }
 

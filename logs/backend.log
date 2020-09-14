@@ -1979,3 +1979,47 @@ Sun, 13 Sep 2020 21:51:32 GMT - Debug - [{"_id":"5f5a93f6cc098be73733f858","user
 Sun, 13 Sep 2020 21:52:03 GMT - Debug - [{"_id":"5f5a93f6cc098be73733f858","username":"y","email":"y@gmail.com","isAdmin":false},{"_id":"5f5a93f6cc098be73733f85b","username":"h","email":"h@gmail.com","isAdmin":false},{"_id":"5f5a93f6cc098be73733f85e","username":"m","email":"m@gmail.com","isAdmin":false},{"_id":"5f5b4bf0dc239c3e981813bc","email":"chenedri22@gmail.com","username":"chen","isAdmin":true},{"_id":"5f5ced4b2c71b6443c1348e0","email":"t@gmail.com","username":"t"}]
 Sun, 13 Sep 2020 21:52:20 GMT - Debug - [{"_id":"5f5a93f6cc098be73733f858","username":"y","email":"y@gmail.com","isAdmin":false},{"_id":"5f5a93f6cc098be73733f85b","username":"h","email":"h@gmail.com","isAdmin":false},{"_id":"5f5a93f6cc098be73733f85e","username":"m","email":"m@gmail.com","isAdmin":false},{"_id":"5f5b4bf0dc239c3e981813bc","email":"chenedri22@gmail.com","username":"chen","isAdmin":true},{"_id":"5f5ced4b2c71b6443c1348e0","email":"t@gmail.com","username":"t"}]
 Sun, 13 Sep 2020 21:53:06 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 13:26:00 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 13:42:13 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 13:42:34 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 13:43:42 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 13:44:06 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 13:44:10 GMT - Debug - [{"_id":"5f5a93f6cc098be73733f858","username":"y","email":"y@gmail.com","isAdmin":false},{"_id":"5f5a93f6cc098be73733f85b","username":"h","email":"h@gmail.com","isAdmin":false},{"_id":"5f5a93f6cc098be73733f85e","username":"m","email":"m@gmail.com","isAdmin":false},{"_id":"5f5b4bf0dc239c3e981813bc","email":"chenedri22@gmail.com","username":"chen","isAdmin":true},{"_id":"5f5ced4b2c71b6443c1348e0","email":"t@gmail.com","username":"t"},{"_id":"5f5efc8646a7050017c2ae39","email":"nevok18@gmail.com","username":"nevo"}]
+Mon, 14 Sep 2020 14:25:32 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 14:25:58 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 14:26:23 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 14:27:08 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 14:27:42 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 14:40:06 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 14:40:27 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 14:42:47 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 14:43:07 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 14:50:39 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 14:50:42 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 14:50:46 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 15:42:05 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 15:50:44 GMT - Debug - maya@gmail.com, maya, 1
+Mon, 14 Sep 2020 15:50:44 GMT - Debug - auth.service - signup with email: maya@gmail.com, username: maya
+Mon, 14 Sep 2020 15:50:45 GMT - Debug - auth.route - new account created: {"email":"maya@gmail.com","password":"$2b$10$q1HKPLSZaCCZwzgEciyAde36UGLyflZuPwW9BG3NE0McejkPhD6OK","username":"maya","_id":"5f5f91540ba27d4c5c0c584e"}
+Mon, 14 Sep 2020 15:50:45 GMT - Debug - auth.service - login with email: maya@gmail.com
+Mon, 14 Sep 2020 16:38:22 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 16:39:14 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 16:40:39 GMT - Debug - auth.service - login with email: maya@gmail.com
+Mon, 14 Sep 2020 16:41:01 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 16:43:14 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 16:43:30 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 16:44:03 GMT - Debug - auth.service - login with email: maya@gmail.com
+Mon, 14 Sep 2020 16:49:09 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 16:50:34 GMT - Debug - auth.service - login with email: maya@gmail.com
+Mon, 14 Sep 2020 16:50:38 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 16:51:35 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 16:52:10 GMT - Debug - auth.service - login with email: maya@gmail.com
+Mon, 14 Sep 2020 16:52:14 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 16:52:48 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 17:00:16 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 17:00:28 GMT - Debug - auth.service - login with email: maya@gmail.com
+Mon, 14 Sep 2020 18:05:04 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 18:08:09 GMT - Info - Server is running on port: 3030
+Mon, 14 Sep 2020 18:08:53 GMT - Debug - auth.service - login with email: chenedri22@gmail.com
+Mon, 14 Sep 2020 18:09:03 GMT - Debug - auth.service - login with email: maya@gmail.com
+Mon, 14 Sep 2020 18:23:50 GMT - Info - Server is running on port: 3030

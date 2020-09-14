@@ -86,7 +86,6 @@ async function add(toy) {
 }
 
 function _buildCriteria(filterBy) {
-    console.log('filterBy cretr-',filterBy);
     const criteria = {};
     if (filterBy.name) criteria.name = {$regex:new RegExp(filterBy.name,'i')}
     if (filterBy.minPrice) criteria.price = { $gte: +filterBy.minPrice }
