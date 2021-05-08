@@ -7,8 +7,6 @@ const path = require ('path')
 
 const app = express()
 const http = require('http').createServer(app);
-const io = require('socket.io')(http);
-
 // const port = 3030
 
 // Express App Config
@@ -32,19 +30,15 @@ if (process.env.NODE_ENV === 'production') {
     app.use(cors(corsOptions));
 }
 
-const toyRoutes = require('./api/toy/toy.routes')
-const authRoutes = require('./api/auth/auth.routes')
-const userRoutes = require('./api/user/user.routes')
-const reviewRoutes = require('./api/review/review.routes')
-const connectSockets = require('./api/socket/socket.routes')
+const itemRoutes = require('./api/item/item.routes')
+const cartRoutes = require('./api/cart/cart.routes')
+const saleRoutes = require('./api/sale/sale.routes')
 
 
 // routes
-app.use('/api/toy', toyRoutes)
-app.use('/api/auth', authRoutes)
-app.use('/api/user', userRoutes)
-app.use('/api/review', reviewRoutes)
-connectSockets(io)
+app.use('/api/item', itemRoutes)
+app.use('/api/cart', cartRoutes)
+app.use('/api/sale', saleRoutes)
 
 app.get('/**', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
