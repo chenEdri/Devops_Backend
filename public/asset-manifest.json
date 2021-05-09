@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Devops_job_interview_project/static/css/main.e731536f.chunk.css",
-    "main.js": "/Devops_job_interview_project/static/js/main.6d9a214b.chunk.js",
-    "main.js.map": "/Devops_job_interview_project/static/js/main.6d9a214b.chunk.js.map",
-    "runtime-main.js": "/Devops_job_interview_project/static/js/runtime-main.325c0984.js",
-    "runtime-main.js.map": "/Devops_job_interview_project/static/js/runtime-main.325c0984.js.map",
-    "static/js/2.05c9dcc9.chunk.js": "/Devops_job_interview_project/static/js/2.05c9dcc9.chunk.js",
-    "static/js/2.05c9dcc9.chunk.js.map": "/Devops_job_interview_project/static/js/2.05c9dcc9.chunk.js.map",
-    "index.html": "/Devops_job_interview_project/index.html",
-    "precache-manifest.68eebf49a1fde5b6fdba738c5464f466.js": "/Devops_job_interview_project/precache-manifest.68eebf49a1fde5b6fdba738c5464f466.js",
-    "service-worker.js": "/Devops_job_interview_project/service-worker.js",
-    "static/css/main.e731536f.chunk.css.map": "/Devops_job_interview_project/static/css/main.e731536f.chunk.css.map",
-    "static/js/2.05c9dcc9.chunk.js.LICENSE.txt": "/Devops_job_interview_project/static/js/2.05c9dcc9.chunk.js.LICENSE.txt",
-    "static/media/global.scss": "/Devops_job_interview_project/static/media/Montserrat-Regular.ee653992.ttf"
+    "main.css": "/Devops_frontend/static/css/main.1b3831d0.chunk.css",
+    "main.js": "/Devops_frontend/static/js/main.1644cf3b.chunk.js",
+    "main.js.map": "/Devops_frontend/static/js/main.1644cf3b.chunk.js.map",
+    "runtime-main.js": "/Devops_frontend/static/js/runtime-main.45ee8866.js",
+    "runtime-main.js.map": "/Devops_frontend/static/js/runtime-main.45ee8866.js.map",
+    "static/js/2.05c9dcc9.chunk.js": "/Devops_frontend/static/js/2.05c9dcc9.chunk.js",
+    "static/js/2.05c9dcc9.chunk.js.map": "/Devops_frontend/static/js/2.05c9dcc9.chunk.js.map",
+    "index.html": "/Devops_frontend/index.html",
+    "precache-manifest.3ef539198f2a4820bc27543e3d65e637.js": "/Devops_frontend/precache-manifest.3ef539198f2a4820bc27543e3d65e637.js",
+    "service-worker.js": "/Devops_frontend/service-worker.js",
+    "static/css/main.1b3831d0.chunk.css.map": "/Devops_frontend/static/css/main.1b3831d0.chunk.css.map",
+    "static/js/2.05c9dcc9.chunk.js.LICENSE.txt": "/Devops_frontend/static/js/2.05c9dcc9.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/Devops_frontend/static/media/Montserrat-Regular.ee653992.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.325c0984.js",
+    "static/js/runtime-main.45ee8866.js",
     "static/js/2.05c9dcc9.chunk.js",
-    "static/css/main.e731536f.chunk.css",
-    "static/js/main.6d9a214b.chunk.js"
+    "static/css/main.1b3831d0.chunk.css",
+    "static/js/main.1644cf3b.chunk.js"
   ]
 }
